@@ -45,8 +45,7 @@
     "eject": "react-scripts eject",
     "react-build": "react-scripts build",
     "prod": "serve -p 4000 build",
-    "install": "cd example && npm install",
-    "postinstall": "cd docs/example && npm run build"
+    "install": "cd docs && npm install"
   },
   "eslintConfig": {
     "extends": [
