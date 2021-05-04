@@ -44,10 +44,15 @@ pass images
    showButtons={false}
    delay={5000}
    activeButtonColor={'blue'}>
-
+   <div>
     <img src='path-to-image' />
+   </div> 
+   <div>
     <img src='path-to-image' />
+   </div>
+   <div>
     <img src='path-to-image' />
+   </div>
  </Slider>
  ```
  ---
