@@ -1,0 +1,71 @@
+{
+  "name": "simple-react-slider-v1",
+  "version": "1.0.0",
+  "private": false,
+  "main": "./lib/index.js",
+  "types": "lib",
+  "author": {
+    "name": "bandvov",
+    "url": "https://github.com/bandvov"
+  },
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bandvov/simple-react-slider-v1"
+  },
+  "bugs": {
+    "url": "https://github.com/bandvov/simple-react-slider-v1/issues"
+  },
+  "homepage": "https://github.com/bandvov/simple-react-slider-v1",
+  "readme": "/README.md",
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "@types/jest": "^26.0.23",
+    "@types/node": "^15.0.1",
+    "@types/react": "^17.0.4",
+    "@types/react-dom": "^17.0.3",
+    "gh-pages": "^3.1.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "typescript": "^4.2.4",
+    "web-vitals": "^1.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "rm -rf ./lib && tsc",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "react-build": "react-scripts build",
+    "prod": "serve -p 4000 build",
+    "predeploy": "cd example && npm run build",
+    "deploy": "gh-pages -d example/build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-typescript": "^7.13.0",
+    "@babel/preset-typescript": "^7.13.0"
+  },
+  "peerDependencies": {
+    "react": ">=16.0.0"
+  }
+}
