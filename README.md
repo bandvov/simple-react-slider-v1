@@ -1,7 +1,10 @@
 ### How to Use
 open terminal and run:
+
  `npm i simple-react-slider-v1`
+
 or
+
  `yarn add simple-react-slider-v1`
 
  next go to your component and import Slider:
