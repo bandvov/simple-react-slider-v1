@@ -46,8 +46,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "react-build": "react-scripts build",
-    "prod": "serve -p 4000 build",
-    "install": "npm install"
+    "prod": "serve -p 4000 build"
   },
   "eslintConfig": {
     "extends": [
